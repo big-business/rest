@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Velvet Bistro</title>
+<style>
+body{
+    font-family:latha;
+    color:white;
+    background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0.95)
+     ) ,url(pics/food.jpg)no-repeat;
+    background-size:1600px 800px;
+}
+.box ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+.box ul li{
+	display: inline-block;
+}
+
+.box ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+.box ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.box ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.wd{
+    width:300px;
+    height:539px;
+    background-color: black;
+    opacity:0.9;
+    padding:55px;
+}
+.wd h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+}
+.wd h4{
+    text-align:justify;
+ color: darkgray;
+ font-weight: normal;   
+}
+.wd h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px auto;
+}
+.opt form,input[type="button"]{
+    background-color:black;
+    color: white;
+    padding: 10px;
+    margin:14px auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    
+}
+
+form,input[type="button"]:hover{background-color: red;}
+.food{
+    width:100%;
+    height:30%;
+}
+.footer{
+   
+    margin:144px auto;
+    
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+   .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline:khaki;
+    color: white;
+    padding: 25px 15px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+ 
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+    .dropdown:hover .dropdown-content {
+    display: block;
+  }
+</style>
+
+</head>
+<body>
+<div class="box">
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="order.html">Order Now</a></li>
+<li><a href="login.html">Log In/Sign Up</a></li>
+</ul>
+</div>
+<div class="dropdown">
+    <button class="dropbtn">Other Services
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </div>
+<div class="wd">
+    <img class="food" src="pics/velvet.jpg"alt="logo"class="text-center shadow">
+    <h1>Welcome!</h1>
+    <h4>Welcome to our family run and family friendly pub & restaurant The Bistro Velvet. 
+     Nestled in the  heart of the charming Place of India, we are just off the B1025 (Lower Road) on the way to New-Delhi.
+     All our food is locally sourced and
+     prepared for your enjoyment.</h4>
+        <h2>Reservation</h2>
+        <div class="opt">
+            <form action=""method="post">
+                <a href="order.html"><input type="button" value="Start Now"></a>
+            </form>
+        </div>
+        </div>
+        <footer>
+            <br>
+            <br>
+            <br>
+           © 2010 <br>
+            All rights reserved.
+
+		</footer>
+</body>
+</html>
